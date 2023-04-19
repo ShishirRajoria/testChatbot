@@ -7,7 +7,7 @@ const UserForm = () => {
   
   //====Timer reigon starts==//
   const Ref = useRef(null);
-  const [timer, setTimer] = useState("06:00");
+  const [timer, setTimer] = useState("05:00");
   const getTimeRemaining = (e) => {
     const total = Date.parse(e) - Date.parse(new Date());
     const seconds = Math.floor((total / 1000) % 60);
